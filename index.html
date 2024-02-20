@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="Author" content="Pedro Muniz">
+  <meta name="Description" content="Portfólio contendo projetos e informações.">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio | Pedro Muniz</title>
+
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Icons -->
+  <script src="https://kit.fontawesome.com/590d27de59.js" crossorigin="anonymous"></script>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/logo site.png" type="image/x-icon">
+
+  <!-- Poppins Link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Scroll Reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- Typed JS -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+</head>
+<body>
+  
+  <div class="container">
+
+    <nav id="header">
+      <div class="nav-logo">
+        <p class="nav-name">
+          Pedro
+        </p>
+        <!-- <span>.</span> -->
+        <img src="images/Comp_1__0-00-00-00_-removebg-preview.png" alt="">
+      </div>
+      <div class="nav-menu" id="myNavMenu">
+        <ul class="nav_menu_list">
+          <li class="nav_list">
+            <a href="#home" class="nav-link">Home</a>
+            <div class="circle"></div>
+          </li>
+          <li class="nav_list">
+            <a href="#sobre" class="nav-link">Sobre</a>
+            <div class="circle"></div>
+          </li>
+          <li class="nav_list">
+            <a href="#projetos" class="nav-link">Projetos</a>
+            <div class="circle"></div>
+          </li>
+          <li class="nav_list">
+            <a href="#contato" class="nav-link">Contato</a>
+            <div class="circle"></div>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-button">
+        <a href="assets/pedro - cv.pdf" download>
+          <button class="btn">Baixar Currículo
+            <i class="fa-solid fa-file-import"></i>
+          </button>
+        </a>
+      </div>
+      <div class="nav-menu-btn">
+        <i class="fa-solid fa-bars" onclick="myMenuFunction()"></i>
+      </div>
+    </nav>
+
+    <main class="wrapper">
+      <section class="featured-box" id="home">
+        <div class="featured-text">
+          <div class="featured-text-card">
+            <span>Pedro Muniz</span>
+          </div>
+          <div class="featured-name">
+            <p>Eu sou <span class="typedText">Desenvolvedor</span></p>
+          </div>
+          <div class="featured-text-info">
+            <p>
+              Desenvolvedor web, apaixonado por solucionar desafios com eficiência e inovação. Habilidades em diversas linguagens e frameworks, trabalho bem em equipe e busco sempre me aprimorar.
+            </p>
+          </div>
+          <div class="featured-text-btn">
+            <a href="#contato">
+              <button class="btn blue-btn">Entre em Contato!</button>
+            </a>
+            <button class="btn">Baixar Currículo
+              <i class="fa-solid fa-file-import"></i>
+            </button>
+          </div>
+          <div class="social_icons">
+            <div class="icon">
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin"></i>
+              <i class="fa-brands fa-github"></i>
+              <i class="fa-brands fa-square-behance"></i>
+            </div>
+          </div>
+        </div>
+        <div class="featured-image">
+          <div class="image">
+            <img src="images/WhatsApp Image 2024-02-20 at 07.36.27.jpeg" alt="my photo">
+            <div class="square"></div>
+          </div>
+        </div>
+        <div class="scroll-icon-box">
+          <a href="#about" class="scroll-btn">
+            <i class="fa-solid fa-computer-mouse"></i>
+            <p>Role para baixo.</p>
+          </a>
+        </div>
+      </section>
+    </main>
+
+      <section class="section" id="sobre">
+        <div class="top-header">
+          <h1>Sobre mim</h1>
+        </div>
+        <div class="row">
+          <div class="col">
+              <div class="about-info">
+                  <h3>Minha introdução:</h3>
+                  <p>Sou um desenvolvedor web versátil, especializado em HTML, CSS e JavaScript. Com uma sólida compreensão dessas linguagens fundamentais, crio interfaces elegantes e responsivas que cativam os usuários. Além disso, entendo de frameworks como Vue.js, agregando dinamismo e eficiência aos meus projetos. Minha paixão pela programação reflete-se na busca contínua por soluções inovadoras e na dedicação em aprimorar minhas habilidades técnicas.
+                  </p>
+                  <div class="about-btn">
+                      <button class="btn">Baixar Currículo <i class="uil uil-import"></i></button>
+                  </div>
+              </div>
+          </div>
+          <div class="col">
+              <div class="skills-box">
+                  <div class="skills-header">
+                      <h3>Front-end</h3>
+                  </div>
+                  <div class="skills-list">
+                      <span>HTML</span>
+                      <span>CSS</span>
+                      <span>SASS</span>
+                      <span>Bootstrap</span>
+                      <span>JavaScript</span>
+                      <span>Vue</span>
+                      <!-- <span>React</span>
+                      <span>Angular</span> -->
+                  </div>
+              </div>
+              <div class="skills-box">
+                  <div class="skills-header">
+                      <h3>Back-end</h3>
+                  </div>
+                  <div class="skills-list">
+                      <span>Node</span>
+                      <span>Web Socket</span>
+                  </div>
+              </div>
+          </div>
+        </div>
+    </section>
+    <!-- -------------- PROJECT BOX ---------------- -->
+    <section class="section" id="projetos">
+        <div class="top-header">
+            <h1>Projetos</h1>
+        </div>
+        <div class="project-container">
+          <div class="project-box">
+              <i class="uil uil-briefcase-alt"></i>
+              <h3>Criticine</h3>
+              <label>Site de Críticas</label>
+          </div>
+          <div class="project-box">
+              <i class="uil uil-users-alt"></i>
+              <h3>Show Company</h3>
+              <label>E-commerce de Sapatos</label>
+          </div>
+          <div class="project-box">
+              <i class="uil uil-award"></i>
+              <h3>Unique Home</h3>
+              <label>Loja de Produtos Gerais</label>
+              <a href="https://pedromuniz0.github.io/Unique-Home---Project/" target="_blank">
+                Acesse já!
+              </a>
+          </div>
+        </div>
+    </section>
+    <!-- -------------- CONTACT BOX ---------------- -->
+    <section class="section" id="contato">
+        <div class="top-header">
+          <h1>Entre em contato!</h1>
+          <span>Tem algum projeto em mente? Entre em contato por aqui.</span>
+        </div>
+        <div class="row">
+          <div class="col">
+              <div class="contact-info">
+                  <h2>Me envie uma mensagem</h2>
+                  <p>Email: disruptionrecrds@gmail.com</p>
+                  <p>Tel: +55 (13) 99672-5666</p>
+                  <a href="https://wa.me/5513996725666?test=Ola!%20Me chamo%20" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i>
+                  </a>
+              </div>
+          </div>
+          <div class="col">
+              <form class="form-control" onsubmit="sendEmail(); reset(); return false;">
+                  <div class="form-inputs">
+                      <input type="text" id="name" class="input-field" placeholder="Nome">
+                      <input type="email" id="email" class="input-field" placeholder="Email">
+                  </div>
+                  <div class="text-area">
+                      <textarea placeholder="Mensagem"></textarea>
+                  </div>
+                  <div class="form-button">
+                      <!-- <button class="btn">Enviar <i class="uil uil-message"></i></button> -->
+                      <input type="submit" value="Enviar">
+                  </div>
+              </form>
+          </div>
+        </div>
+    </section>
+  </main>
+  <!-- --------------- FOOTER --------------- -->
+  <footer>
+      <div class="top-footer">
+          <p>Pedro Muniz .</p>
+      </div>
+      <div class="middle-footer">
+          <ul class="footer-menu">
+              <li class="footer_menu_list">
+                  <a href="#home">Home</a>
+              </li>
+              <li class="footer_menu_list">
+                  <a href="#about">Sobre</a>
+              </li>
+              <li class="footer_menu_list">
+                  <a href="#projects">Projetos</a>
+              </li>
+              <li class="footer_menu_list">
+                  <a href="#contact">Contato</a>
+              </li>
+          </ul>
+      </div>
+      <div class="footer-social-icons">
+          <div class="icon"><i class="fa-brands fa-instagram"></i></div>
+          <div class="icon"><i class="fa-brands fa-linkedin"></i></div>
+          <div class="icon"><i class="fa-brands fa-github"></i></div>
+          <div class="icon"><i class="fa-brands fa-square-behance"></i></div>
+      </div>
+      <!-- <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-linkedin"></i>
+      <i class="fa-brands fa-github"></i>
+      <i class="fa-brands fa-square-behance"></i> -->
+      <div class="bottom-footer">
+          <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Pedro Muniz</a> - Todos os direitos reservados.</p>
+      </div>
+  </footer>
+
+  </div>
+
+  <!-- ----- TYPING JS Link ----- -->
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <!-- ----- SCROLL REVEAL JS Link----- -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <!-- ----- MAIN JS ----- -->
+  <script src="js/main.js"></script>
+  <!-- GMAIL -->
+  <script src="https://smtpjs.com/v3/smtp.js">
+  </script>
+  <script>
+    function sendEmail () {
+
+      let username = document.getElementById('name').value;
+      let email = document.getElementById('email').value;
+      Email.send({
+        Host : "smtp.elasticemail.com",
+        Username : "disruptionrecrds@gmail.com",
+        Password : "E5EEA5145BF39E723383E208D9A1BFB665C9",
+        To : 'disruptionrecrds@gmail.com',
+        From : 'disruptionrecrds@gmail.com',
+        Subject : "New Contact Form Enquiry",
+        Body : "And this is the body"
+      }).then(
+        message => alert(message)
+      );
+    }
+  </script>
+</body>
+</html>
