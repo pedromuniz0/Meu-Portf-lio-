@@ -580,6 +580,18 @@ textarea{
     background: var(--second-color);
     color: var(--color-white);
 }
+.form-button input {
+    border: none;
+    padding: .6rem 2rem;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: .15s all;
+    cursor: pointer;
+}
+.form-button input:hover {
+    background: var(--second-color);
+    color: #efefef;
+}
 .form-button>.btn:hover{
     background: #00B5E7;
 }
